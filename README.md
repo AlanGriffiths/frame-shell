@@ -3,12 +3,12 @@
 Frame Shell is a small example of using Ubuntu Frame to provide a single
 app user session. It comprises two files:
 
-File | description
+File | Description
 --|--
 frame-shell | This is a script that runs an application using Ubuntu Frame
 frame-shell.desktop | This is a desktop entry for the greeter that invokes frame-shell
 
-These files need to be copied to /usr/bin and /usr/share/wayland-sessions respectively.
+These files need to be copied to `/usr/bin` and `/usr/share/wayland-sessions` respectively.
 
 ## Prerequisites
 
@@ -35,6 +35,7 @@ Ubuntu Frame:
 ```
 snap set ubuntu-frame config="
 add-wayland-extensions=zwp_pointer_constraints_v1:zwp_relative_pointer_manager_v1"
+```
 
 Now copy the files where they are needed:
 
