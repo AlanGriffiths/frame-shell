@@ -1,0 +1,5 @@
+#!/bin/bash
+ubuntu-frame&
+#mir-kiosk-neverputt
+"$@"
+kill %1

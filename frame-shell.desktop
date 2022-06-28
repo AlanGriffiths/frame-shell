@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Frame neverputt
+GenericName=Frame neverputt
+Keywords=Mir;Server;Shell
+Type=Application
+Icon=ubuntu-logo
+Exec=bash -lc 'frame-shell mir-kiosk-neverputt'
+Terminal=false
+Categories=Utility
+#MimeType=
+X-Ubuntu-Gettext-Domain=ubuntu-frame
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=ubuntu-frame
+#X-Screenshot=
+X-Ubuntu-Splash-Color=#7F7F7F
